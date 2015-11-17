@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_token">Token SEU_TOKEN_DE_AUTENTICACAO_AQUI</string>
+</resources>

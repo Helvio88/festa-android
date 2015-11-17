@@ -16,7 +16,7 @@ public class Main extends Activity {
     private static final int SCAN_PAYMENT = 1;
     private static final String ROOT_URL = "http://festasonharacordado.com.br/apiv1";
     private static final String subscriptionsUrl = ROOT_URL + "/subscriptions/";
-    private static final String auth = "Token SEU_TOKEN_DE_AUTENTICACAO_AQUI";
+    private static String auth;
     private static IntentIntegrator ii;
 
     @Override
@@ -27,6 +27,7 @@ public class Main extends Activity {
             getActionBar().setTitle(R.string.welcome_text);
             getActionBar().setDisplayUseLogoEnabled(true);
         }
+        auth = getString(R.string.auth_token);
         ii = new IntentIntegrator(Main.this);
     }
 
