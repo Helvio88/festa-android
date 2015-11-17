@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Festa Sonhar</string>
+    <string name="request_error">Erro! Tente novamente!</string>
+    <string name="presence_success">Presença Registrada!</string>
+    <string name="payment_success">Pagamento Registrado!</string>
+    <string name="payment">Payment</string>
+    <string name="do_payment">Registrar Pagamento</string>
+    <string name="do_presence">Registrar Presença</string>
+    <string name="presence_prompt">Escanear o QR Code para registrar Presença. Voltar para terminar.</string>
+    <string name="payment_prompt">Escanear o QR Code para registrar Pagamento. Voltar para terminar.</string>
+    <string name="welcome_text">Festa Sonhar Acordado</string>
+</resources>
